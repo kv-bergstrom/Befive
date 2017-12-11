@@ -1,0 +1,195 @@
+/*
+ * Hanterar menybaren
+ */
+ 
+.logo {
+    display:block;
+    max-width: px;
+    margin:  auto;
+    width: 90%;
+}
+
+/*
+ * Hanterar menybaren
+ */
+  
+
+
+
+
+
+ /* Add a black background color to the top navigation */
+.topnav {
+    background-color: lightblue;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+} 
+ /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+} 
+
+
+/* Hantera tabeller och inmatning */
+body 
+{
+ text-align:center;
+background-color: ;
+display:block;
+}
+
+h3 
+{
+    color: blue;
+}
+
+th
+{    
+color:;        
+}
+
+td
+{
+    color:;   
+}
+
+
+form
+{    
+    color: ;
+}
+
+table, th, td 
+{
+    border: 1px solid black;
+    align-content:center;
+    margin: 20px, 20px, 20px, 20px;
+}
+
+
+
+
+.hunter
+{
+	text-align:center;
+
+}
+
+form.webPoll fieldset {
+    background:#FCFAFC;
+    behavior:url(PIE.php);
+    border:1px solid #FCFAFC;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    margin:0;
+    padding:0;
+    position:relative;
+}
+
+form.webPoll ul {
+    behavior:url(PIE.php);
+    border:2px #bebebe solid;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    font-family:verdana;
+    font-size:10px;
+    list-style-type:none;
+    margin:0;
+    padding:10px 0;
+    position:relative;
+}
+
+form.webPoll .result {
+    background: #d81b21;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff8080), to(#aa1317));
+    background: -moz-linear-gradient(top,  #ff8080,  #aa1317);
+    -pie-background: linear-gradient(#ff8080, #aa1317);
+    border:1px red solid;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    clear:both;
+    color:#EFEFEF;
+    padding-left:2px;
+    behavior: url('PIE.php');
+}
+
+
+orm.webPoll li {
+    margin:0 16px;
+    overflow:auto;
+    padding:4px 0 6px;
+    position: relative;
+}
+
+form.webPoll input {
+    position: absolute;
+    top: 4px;
+    *top: 0;
+    left: 0;
+    margin: 0;
+    padding:0;
+}
+
+label.poll_active {
+    float:right;
+    width:90%;
+}
+
+form.webPoll {
+    background:#ededed;
+    behavior:url(PIE.php);
+    border:1px solid #bebebe;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;  
+    border-radius:8px;
+    -moz-box-shadow:#666 0 2px 3px;
+    -webkit-box-shadow:#666 0 2px 3px;
+    box-shadow:#666 0 2px 3px;
+    margin:10px 0 10px 8px;
+    padding:6px;
+    position:relative;
+    width:246px;
+}
